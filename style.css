@@ -45,6 +45,12 @@ a {
     text-transform: uppercase;
     border-bottom: 4px solid #752BEA;
 }
+.footer {
+    background: #111;
+    posision: fixed;
+    bottom: 0;
+    width: 100%;
+}
 .container label{
     text-align: left;
     color: #90caf9;
