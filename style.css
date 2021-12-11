@@ -45,12 +45,8 @@ a {
     text-transform: uppercase;
     border-bottom: 4px solid #752BEA;
 }
-.footer {
-    background: #111;
-    posision: fixed;
-    bottom: 0;
-    width: 100%;
-}
+
+
 .container label{
     text-align: left;
     color: #90caf9;
@@ -75,3 +71,27 @@ a {
     color: #fafafa;
     border-radius: 20px;
 }
+.footer {
+
+    background-color: #222;
+color: #fff;
+    font-size: 14px;
+
+    posision: fixed;
+
+    bottom: 0;
+left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+.footer p {
+    margin: 10px 0;
+    }
+.footer i {
+    color: red;
+    }
+.footer a {
+    color: #3c97bf;
+    text-decoration: none;
+    }
